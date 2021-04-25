@@ -75,6 +75,7 @@ when closed.
 require"toggleterm".setup{
   size = 20,
   open_mapping = [[<c-\>]],
+  insert_mappings = true, -- also add open_mapping as an insert keybinding
   hide_numbers = true, -- hide the number column in toggleterm buffers
   shade_filetypes = {},
   shade_terminals = true,
